@@ -1,212 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevConf 2026</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-        <nav>
-            <h2 class="logo"><img src="assets\logo.png" alt=""></h2>        
-			<ul class="nav-links">
-				<li>Speakers</li>
-				<li>Schedule</li>
-				<li>Tracks</li>
-				<li>Venue</li>
-				<li>Blog</li>
-					<div>
-						<button class="common-btn">Register Now</button>
-					</div>
-			</ul>
-		 </nav>
-</header>
-
-
-    <div class="banner-card">
-            <img src="assets\banner.jpg" alt="">
-            <div class="banner-text">
-                <h1>Code.<span>Connect</span>.Create</h1>
-                <p><h6>Join 4,000+ engineers,founders and builders and premier developer conference of 2026.Three days of cutting-edge talks,hands-on workshops,and meaningful connections.</h6></p>
-                <button class="common-btn-1">Register Now</button>
-            </div>
-        </div>
-   
-
-
-    <header>
-        <h1 class="section-title-1">Meet the Speakers</h1>
-    </header>
-
-<div class="container">
-
-    <div class="card">
-        <img src="assets\andrej.png" alt="Andrej Karpathy">
-        <div class="content">
-            <span>AI / ML</span>
-            <h3>Andrej Karpathy</h3>
-            <p>Pretraining team, Anthropic</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets\demis.png" alt="Demis Hassabis">
-        <div class="content">
-            <span>CLOUD & DEVOPS</span>
-            <h3>Demis Hassabis</h3>
-            <p>Co-Founder and CEO, Google DeepMind</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets\gary.png" alt="Gary Marcus">
-        <div class="content">
-            <span>FRONTEND</span>
-            <h3>Gary Marcus</h3>
-            <p>Staff Engineer, Vercel</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="assets\mustafa.png" alt="Mustafa Suleyman">
-        <div class="content">
-            <span>SECURITY</span>
-            <h3>Mustafa Suleyman</h3>
-            <p>CEO of Microsoft AI</p>
-        </div>
-    </div>
-
-</div>
-
+<!-- Navigation -->
+<header class="site-header">
+<nav>
+<a href="#" class="logo">
+<img src="assets/logo.png" alt="DevConf logo">
+</a>
+<ul class="nav-links">
+<li><a href="#speakers">Speakers</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#tracks">Tracks</a></li>
+<li><a href="#venue">Venue</a></li>
+<li><a href="#blog">Blog</a></li>
+</ul>
+<button class="common-btn" type="button">
+ Register Now
+</button>
 </nav>
-    </selection>
-
-<body>
-    <selection>
-        <h1 class="section-title-1">Secure Your Spot</h1>
-        <p class="section-title-2">Early-bird pricing ends August 15, 2026.</p>
-     </selection>
-
+</header>
+<main>
+<!-- Banner Section -->
+<section class="banner-card">
+<img src="assets/banner.jpg" alt="People attending the DevConf developer conference">
+ <div class="banner-text">
+<h1>
+ Code.<span>Connect</span>.Create
+</h1>
+<p>Join 4,000+ engineers, founders and builders at the
+ premier developer conference of 2026. Three days of
+ cutting-edge talks, hands-on workshops and meaningful
+ connections.
+</p>
+<button class="common-btn-1" type="button">
+ Register Now
+</button>
+</div>
+</section>
+<!-- Speakers Section -->
+<section id="speakers" class="speakers-section">
+<h2 class="section-title-1">
+ Meet the Speakers
+</h2>
+<div class="container">
+<article class="card speaker-card">
+<img
+src="assets/andrej.png"
+alt="Andrej Karpathy"
+>
+<div class="content">
+<span>AI / ML</span>
+<h3>Andrej Karpathy</h3>
+<p>
+ Pretraining Team, Anthropic
+</p>
+</div>
+</article>
+<article class="card speaker-card">
+<img
+src="assets/demis.png"
+alt="Demis Hassabis"
+>
+<div class="content">
+<span>Cloud &amp; DevOps</span>
+<h3>Demis Hassabis</h3>
+<p>Co-Founder and CEO, Google DeepMind
+</p>
+</div>
+</article>
+<article class="card speaker-card">
+<img
+src="assets/gary.png"
+alt="Gary Marcus"
+>
+<div class="content">
+<span>Frontend</span>
+<h3>Gary Marcus</h3>
+<p>
+ Staff Engineer, Vercel
+</p>
+</div>
+</article>
+<article class="card speaker-card">
+<img
+src="assets/mustafa.png"
+alt="Mustafa Suleyman"
+>
+<div class="content">
+<span>Security</span>
+<h3>Mustafa Suleyman</h3>
+<p>
+ CEO of Microsoft AI
+</p>
+</div>
+</article>
+</div>
+</section>
+<!-- Pricing Section -->
+<section id="pricing" class="pricing-section">
+<h2 class="section-title-1">
+ Secure Your Spot
+</h2><p class="section-title-2">
+ Early-bird pricing ends August 15, 2026.
+</p>
 <div class="pricing">
-    <div class="card">
-            <h4>standard</h4>
-            <h2>$399</h2>
-            <h5>per person</h5>
-            <ul>
-                <li>Access to all 3 conference days</li>
-            <li>48 curated technical talks</li>
-            <li>2 workshop sessions</li>
-            <li>Networking lunch & coffee breaks</li>
-            <li>Conference swag bag</li>
-            <li>Digital recordings (30 days)</li>
-            </ul>
-            <button class="common-btn-2">Register Now</button>
-        </div>
+<article class="card pricing-card">
+<h3>Standard</h3>
+<p class="price">$399</p>
+<p class="price-description">
+ Per person
+</p>
+<ul>
+<li>Access to all 3 conference days</li>
+<li>48 curated technical talks</li>
+<li>2 workshop sessions</li>
+<li>Networking lunch and coffee breaks</li>
+<li>Conference swag bag</li>
+<li>Digital recordings for 30 days</li>
+</ul>
+<button class="common-btn-2" type="button">
+ Register Now
+</button>
+</article>
+<article class="card pricing-card active">
+<h3>Pro</h3>
+<p class="price">$749</p>
+<p class="price-description">
+ Per person
+</p>
+<ul>
+<li>Everything included in Standard</li>
+<li>Unlimited workshop access</li>
+<li>Speaker meet and greet</li>
+<li>VIP networking dinner</li>
+<li>Lifetime recording access</li>
+<li>30-minute one-to-one mentorship</li>
+</ul>
+<button class="common-btn-2" type="button">
+    Register Now
+</button></article>
+<article class="card pricing-card">
+<h3>VIP</h3>
+<p class="price">$999</p>
+<p class="price-description">
+ Per person
+</p>
+<ul>
+<li>Access to all sessions</li>
+<li>Conference swag bag</li>
+<li>Networking events</li>
+<li>Exclusive VIP lounge access</li>
+</ul>
+<button class="common-btn-2" type="button">
+ Register Now
+</button>
+</article>
+</div>
+</section>
+<!-- Additional Section -->
+<section class="box-5">
+<h2 class="box-5-text-1">
+ About Us
+</h2>
+<p class="box-5-text-2">
+ We are passionate about turning ideas into modern, responsive, and user-friendly websites. 
+ Our mission is to connect creativity with technology by building high-quality digital solutions that help
+ individuals, students, and businesses grow online.
+</section>
+</main>
+<!-- Footer -->
+<footer class="footer">
+<div class="footer-text">
+<p> 2026 DevConf. All rights reserved.
+</p>
+<p>
+<a href="#">Privacy Policy</a>
+<a href="#">🔗Terms of Service</a>
+<img src="c:\Users\user\Downloads\face.png"><img src="c:\Users\user\Downloads\download (5).png"
 
-        <div class="card active">
-            <h4>PRO</h4>
-            <h2>$749</h2>
-            <h5>per person</h5>
-            <ul> 
-                <li>Everything in Standard</li>
-                <li>Unlimited workshop access</li>
-                <li>Speaker meet & greet</li>
-                <li>VIP networking dinner</li>
-                <li>Lifetime recording access</li>
-                <li>1-on-1 mentorship (30 min)</li>
-            </ul>
-               <button class="common-btn-2">Register Now</button>
-        </div>
-
-        <div class="card">
-            <h4>VIP</h4>
-            <h2>$999</h2>
-            <h5>per person</h5>
-            <ul>
-                <li>Access to all sessions</li>
-                <li>Conference swag bag</li>
-                <li>Networking events</li>
-                <li>Exclusive VIP lounge access</li>
-            </ul>
-                <button class="common-btn-2">Register Now</button>
-                </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-    <selection>
-        <div class="box-5">
-        <h1 class="box-5-text-1">Something Missing?</h1>
-        <h2 class="box-5-text-2">Generate a relevant section with AI</h2>
-
-    </selection>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body>
-    <div class="footer">
-
-        <ul class="footer-text">
-            <li><h6>© 2026 DevConf. All rights reserved.</h6></li>
-            <li><h6>Privacy Policy | Terms of Service</h6></li>
-        </ul>
-    </div>
-    
+</p>
+</div>
+</footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- </body>
 </html>
