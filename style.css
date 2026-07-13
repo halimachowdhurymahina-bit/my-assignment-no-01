@@ -240,11 +240,11 @@ color: #444444;
 font-size: 15px;
 }
 .pricing-card ul li::before {
-content: "✓";
 position: absolute;
 left: 0;
 color: #2563eb;
 font-weight: bold;
+content: "✓";
 }
 .pricing-card button {
 width: 100%;
